@@ -51,6 +51,6 @@ group :test do
   # Easy installation and use of chromedriver to run system tests with Chrome
   gem "chromedriver-helper"
 end
-
+gem "rails-i18n"
 gem "rubocop", "~> 0.54.0", require: false
 gem "tzinfo-data", platforms: [:mingw, :mswin, :x64_mingw, :jruby]
