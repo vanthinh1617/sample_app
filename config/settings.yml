@@ -1,0 +1,8 @@
+client:
+  host: "localhost:3000"
+app:
+  user:
+    max_length_name: 50
+    max_length_email: 255
+    mini_length_password: 6
+
