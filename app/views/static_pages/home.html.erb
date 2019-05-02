@@ -1,0 +1,6 @@
+<% provide(:title, t(".home")) %>
+<h1><%= t ".home" %> </h1>
+<p>
+  <%= t(".text_book", link_to_book: link_to(t(".link_text"),
+   "https://www.railstutorial.org/")).html_safe %>
+</p>

@@ -1,0 +1,6 @@
+<% provide(:title, t(".contact")) %>
+<h1><%= t(".contact")%> </h1>
+<p>
+  <%= t(".text_book", link_to_book: link_to(t(".link_text"),
+  "https://www.railstutorial.org/contact")).html_safe %>
+</p>
