@@ -45,6 +45,12 @@ group :development do
 end
 
 group :test do
+  gem "mini_backtrace", "0.1.3"
+  gem "minitest-reporters", "~> 1.1", ">= 1.1.7"
+  gem "ruby-prof"
+end
+
+group :test do
   # Adds support for Capybara system testing and selenium driver
   gem "capybara", ">= 2.15"
   gem "selenium-webdriver"
