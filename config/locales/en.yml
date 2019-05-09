@@ -21,8 +21,28 @@ en:
       link_text_1: Rails book
     home:
       home: "Home"
+      sign_up: "Sign up now"
+      rails_png: "rails.png"
+      rails_org: "http://rubyonrails.org/"
       text_book: "This is the home page for the %{link_to_book} sample application."
       link_text: "Ruby on Rails Tutorial"
+  users:
+    new:
+      new: "Sign up"
+      new_user: "Users#new"
+      find_me: "Find me in app/views/users/new.html.erb"
   layouts:
     application:
       title: "Ruby on Rails Tutorial Sample App"
+    footer:
+      text: The %{link_to_web} by %{link_to_web_1}
+      link_text: "Ruby on Rails Tutorial"
+      link_text_1: "Michael Hartl"
+      link_text_2: "News"
+      about: "About"
+      contact: "Contact"
+    header:
+      sample_app: "sample app"
+      home: "Home"
+      help: "Help"
+      login: "Login"
